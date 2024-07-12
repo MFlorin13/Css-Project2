@@ -1,0 +1,366 @@
+@media (max-width: 1024px) {
+
+    .text1 p,
+    .text2 p,
+    .text3 p,
+    .text4 p,
+    .text5 p {
+        font-size: 1.5rem;
+    }
+
+    .text1 h1,
+    .text2 h1,
+    .text4 h1,
+    .text5 h1 {
+        font-size: 3.2rem;
+    }
+
+    .text3 h2,
+    .containerText h2 {
+        font-size: 2rem;
+    }
+
+    .containerText p {
+        font-size: 1.3rem;
+    }
+
+    .contactUs,
+    .privacy,
+    .install {
+        font-size: 1.4rem;
+        padding-top: 10%;
+    }
+
+    .ios,
+    .mac {
+        font-size: 1.5rem;
+    }
+
+    .companyLogo img {
+        width: 90%;
+    }
+
+    .logo {
+        width: 13rem;
+    }
+
+    .container2Right {
+        gap: 10%;
+    }
+
+    .text3 {
+        gap: 1rem;
+    }
+
+    .container1 {
+        height: 50rem;
+    }
+
+    .container2 {
+        height: 50rem;
+    }
+
+    .text4 {
+        height: 13rem;
+    }
+
+    .clipboardDiv {
+        height: 35rem;
+    }
+
+    .text5 {
+        justify-content: center;
+    }
+
+    #position {
+        height: 3rem;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .text1 p,
+    .text2 p,
+    .text3 p,
+    .text4 p,
+    .text5 p {
+        font-size: 1.1rem;
+    }
+
+    .text1 h1,
+    .text2 h1,
+    .text4 h1,
+    .text5 h1 {
+        font-size: 2.5rem;
+    }
+
+    .text3 h2,
+    .containerText h2 {
+        font-size: 1.7rem;
+    }
+
+    .containerText p {
+        font-size: 1.1rem;
+    }
+
+    .contactUs,
+    .privacy,
+    .install {
+        font-size: 1.2rem;
+        padding-top: 10%;
+    }
+
+    .ios,
+    .mac {
+        font-size: 1.3rem;
+    }
+
+    .companyLogo img {
+        width: 70%;
+    }
+
+    .logo {
+        width: 10rem;
+    }
+
+    .container2Right {
+        gap: 10%;
+    }
+
+    .text3 {
+        gap: 0.5rem;
+    }
+
+    .container1 {
+        height: 40rem;
+    }
+
+    .container2 {
+        height: 40rem;
+    }
+
+    .text4 {
+        height: 10rem;
+    }
+
+    .clipboardDiv {
+        height: 22rem;
+    }
+
+    .text5 {
+        height: 13rem;
+    }
+
+    #position {
+        height: 2rem;
+    }
+
+    .footerLogo img {
+        width: 4rem;
+    }
+
+    .footerLogo {
+        width: 20%;
+    }
+
+    .contactDiv {
+        width: 65%;
+    }
+
+    .apps img {
+        width: 90%;
+    }
+
+    .container2 {
+        gap: 3%;
+    }
+
+    .text2 {
+        height: 15rem;
+    }
+
+    .companyLogo {
+        width: 100%;
+        gap: 3rem;
+        height: 10rem;
+    }
+
+    .container3 {
+        height: 20rem;
+    }
+
+    .container3Div {
+        width: 30%;
+    }
+
+    .container3Div img {
+        width: 20%;
+    }
+
+    .footer {
+        height: 10rem;
+    }
+
+    .buttons {
+        height: 15rem;
+        gap: 5%;
+    }
+
+    .ios,
+    .mac {
+        padding: 1.2rem;
+        width: 20rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .container1 {
+        height: 45rem;
+    }
+
+    .headerImage {
+        background-image: url("./images/bg-header-mobile.png");
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .text1 {
+        height: 15rem;
+    }
+
+    .text2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .text1 h1,
+    .text2 h1,
+    .text4 h1,
+    .text5 h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .ios,
+    .mac {
+        padding: 1rem;
+        width: 70%;
+    }
+
+    .text3 h2 {
+        font-size: 1.5rem;
+    }
+
+    .container2 {
+        min-height: 80rem;
+        flex-direction: column;
+        gap: 7%;
+    }
+
+    .container2Right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container3 {
+        width: 100%;
+        height: 50rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .companyLogo {
+        width: 100%;
+        height: 50rem;
+        flex-direction: column;
+        gap: 10%;
+        padding: 0;
+    }
+
+    .container3Div {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container3Div img {
+        width: 4rem;
+    }
+
+    .text5 {
+        height: 6rem;
+        justify-content: flex-start;
+    }
+
+    .companyLogo img {
+        width: 12rem;
+    }
+
+    .computer img {
+        width: 90%;
+    }
+
+    .computer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .clipboardDiv {
+        width: 100%;
+        height: 25rem;
+    }
+
+    .buttons {
+        height: 17rem;
+    }
+
+    .footer {
+        width: 100%;
+        height: 40rem;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .contactDiv {
+        width: 100%;
+        height: 25rem;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 3rem;
+    }
+
+    .contactUs,
+    .privacy,
+    .install {
+        height: 11rem;
+        align-items: center;
+        padding: 0;
+        justify-content: space-evenly;
+    }
+
+    .apps {
+        width: 100%;
+        gap: 10%;
+        padding-bottom: 2rem;
+    }
+
+    .install {
+        padding-bottom: 4rem;
+    }
+
+    .footerLogo {
+        padding-top: 3rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .container2 {
+        min-height: 60rem;
+    }
+}

@@ -1,0 +1,93 @@
+.btn {
+    transition: all 0.5s;
+    position: relative;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    border-radius: 100px;
+}
+
+.btn:hover::before {
+    opacity: 0.3;
+    transform: scale(0.7, 0.5);
+    background-color: #ffffff;
+}
+
+.btn::after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 1s;
+    border: 4px solid #ff0000;
+    transform: scale(1.2, 1.2);
+    border-radius: 100px;
+}
+
+.btn:hover::after {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+    }
+
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+        transform: translatey(-20px);
+    }
+
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+    }
+}
+
+.contactUs a:hover,
+.privacy a:hover,
+.install a:hover {
+    animation-name: color;
+    animation-duration: 2.0s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes color {
+    0% {
+        opacity: 0.2;
+        color: #008000;
+
+    }
+
+    50% {
+        color: #ffa500;
+
+    }
+
+    100% {
+        color: #ff0000;
+
+    }
+}
+
+.apps img:hover {
+    padding: 2rem;
+    transform: translate(0rem, -1rem);
+}
